@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>yoshimi.png</file>
+        <file>audio.png</file>
+    </qresource>
+</RCC>
