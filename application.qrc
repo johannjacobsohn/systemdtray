@@ -1,6 +1,7 @@
 <RCC>
-    <qresource prefix="/new/prefix1">
-        <file>yoshimi.png</file>
-        <file>audio.png</file>
+    <qresource prefix="/default/">
+        <file>icons/status-running.png</file>
+        <file>icons/status-failed.png</file>
+        <file>icons/status-unknown.png</file>
     </qresource>
 </RCC>
