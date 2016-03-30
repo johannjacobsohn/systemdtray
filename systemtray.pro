@@ -11,6 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = systemtray
 TEMPLATE = app
 
+LIBS += -lsystemd
 
 SOURCES += main.cpp\
         mainwindow.cpp
@@ -21,3 +22,6 @@ FORMS    += mainwindow.ui
 
 RESOURCES += \
     application.qrc
+
+DISTFILES += \
+    readme.md
